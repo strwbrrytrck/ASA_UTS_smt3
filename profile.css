@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url("wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: rgba(10, 10, 10, 0.7);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .3);
+    padding: 20px 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Menggunakan border-radius untuk menyesuaikan sudut */
+}
+
+.container h2,
+.container p {
+    color: #16064b;
+}
+
+.container h1 {
+    color: aliceblue;
+}
+
+.container h2 span,
+p span {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #070707;
+}
+
+.container h2 {
+    font-size: 15px;
+    /* Mengatur ukuran font nama dan username */
+}
+
+.container button {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    font-size: 18px;
+    color: #070707;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+}
+
+.container button:hover {
+    background-color: #215ab8;
+}
+
+.container a {
+    text-decoration: none;
+    color: #202020;
+}
